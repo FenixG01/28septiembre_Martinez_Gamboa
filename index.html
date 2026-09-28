@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de prácticas</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+            border-radius: 16px;
+            padding: 36px 30px;
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #38bdf8;
+            margin-bottom: 6px;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #cbd5e1;
+            margin-bottom: 8px;
+        }
+
+        p {
+            font-size: 0.95rem;
+            color: #94a3b8;
+            margin-bottom: 28px;
+        }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        button {
+            width: 100%;
+            padding: 13px 18px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #f8fafc;
+            background-color: #0284c7;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            background-color: #0369a1;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px -2px rgba(2, 132, 199, 0.35);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Prácticas</h1>
+        <h2>Brandon Martinez Gamboa</h2>
+        <p>Portal de mis prácticas.</p>
+
+        <div class="button-group">
+            <button onclick="location.href='file:Brandon_Ex.html'">
+                Brandon Ex
+            </button>
+
+            <button onclick="location.href='file:negocio_brandon.html'">
+                Negocio
+            </button>
+
+            <button onclick="location.href='file:monetizar.html'">
+                Monetizar
+            </button>
+
+            <button onclick="location.href='file:vender.html'">
+                Vender
+            </button>
+        </div>
+    </div>
+</body>
+</html>
